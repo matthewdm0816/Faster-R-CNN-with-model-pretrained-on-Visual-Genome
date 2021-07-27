@@ -1,7 +1,17 @@
-"""Transform a roidb into a trainable roidb by adding a bunch of metadata."""
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
+# """Transform a roidb into a trainable roidb by adding a bunch of metadata."""
+# from __future__ import absolute_import
+# from __future__ import division
+# from __future__ import print_function
+import os.path
+import sys
+print(os.path.dirname(__file__))
+import importlib
+sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../..'))
+sys.path.append("/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/")
+sys.path.append("/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/datasets")
 
 import datasets
 import numpy as np
