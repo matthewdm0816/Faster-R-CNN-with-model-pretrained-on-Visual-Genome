@@ -1,10 +1,10 @@
 setup.py
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/vision.cpp
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/cpu/ROIAlign_cpu.cpp
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/cpu/nms_cpu.cpp
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/cuda/ROIAlign_cuda.cu
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/cuda/ROIPool_cuda.cu
-/home/mowentao/vizwiz/Faster-R-CNN-with-model-pretrained-on-Visual-Genome/lib/model/csrc/cuda/nms.cu
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/vision.cpp
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/cpu/ROIAlign_cpu.cpp
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/cpu/nms_cpu.cpp
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/cuda/ROIAlign_cuda.cu
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/cuda/ROIPool_cuda.cu
+/mnt/data/yangliu/fasterrcnn/lib/model/csrc/cuda/nms.cu
 datasets/__init__.py
 datasets/coco.py
 datasets/ds_utils.py

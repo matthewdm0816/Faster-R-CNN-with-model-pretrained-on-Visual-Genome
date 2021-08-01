@@ -59,7 +59,7 @@ except NameError:
     xrange = range  # Python 3
 
 csv.field_size_limit(sys.maxsize)
-os.environ['CUDA_VISIBLE_DEVICES'] = '1' #!NOTE: when device 0 is ussing!s
+os.environ['CUDA_VISIBLE_DEVICES'] = '3' #!NOTE: when device 0 is ussing!s
 
 FIELDNAMES = ["image_id", "image_w", "image_h", "tags", "num_boxes", "boxes", "features"]
 
@@ -576,6 +576,7 @@ def generate_tsv(outfile, image_ids, args):
 def get_id(image_path):
     r"""
     "VizWiz-werwerwer-0001123.jpg" => 1123
+    "COCO_train2014_00000000123123.jpg" => 123123
     """
     filename = os.path.basename(image_path)
     image_id = filename.split('_')[-1]
