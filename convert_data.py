@@ -93,6 +93,7 @@ if __name__ == "__main__":
                     )
                 else:
                     feature[item["image_id"]] = item["features"]
+                # ic(feature[item["image_id"]].shape)
             if item["image_id"] in tags:
                 tags[item["image_id"]] = item["tags"]
     ic(total_n_regions / len(feature.keys()))
